@@ -1,8 +1,8 @@
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "pnpm run build"
 [build.processing.html]
-  pretty_urls = false
+  pretty_urls = true
 [[headers]]
   for = "/_astro/*"
   [headers.values]
